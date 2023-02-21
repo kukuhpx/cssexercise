@@ -1,0 +1,8 @@
+After you set the new remote url, you must do fetch and then pull the repo.
+Example:
+> git remote set-url origin [new remote url]
+After that, use fetch and pull command:
+> git fetch origin master
+> git pull origin master
+Finnaly, you can do push to our repo.
+> git push origin master

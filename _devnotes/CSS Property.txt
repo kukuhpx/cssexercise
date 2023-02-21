@@ -1,0 +1,9 @@
+1. Display
+1.1. Inline
+Jika elemen li menggunakan property display dengan nilai inline/inline-block/inline-table, maka elemen li akan otomatis memberikan margin-right bernilai 3px.
+1.2. Table-Cell
+Jika sebuah elemen menggunakan table-cell, maka tidak dapat berpengaruh dengan margin.
+2. Float
+Ketika elemen child menggunakan property float, maka elemen parent harus menggunakan property overflow agar dapat menutup float.
+3. Top, RIght, Bottom, Left
+Jika ingin menggunakan salah satu property di atas wajib menggunakan property position.

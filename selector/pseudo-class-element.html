@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS -  Pseudo Class</title>
+    <style>
+        /*
+            Pseudo Class:
+            :hover
+            :focus
+            :first-child
+            :last-child
+
+            Pseudo Element:
+            ::after
+            ::before
+            ::first-letter
+        */
+        img {
+            position: absolute;
+            width: 250px;
+            height: auto;
+            top: 31.5%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        input {
+            position: absolute;
+            top: 42.5%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-sizing: border-box;
+            width: 400px;
+            padding: 10px;
+            border: 2px solid #c9c7c7;
+            border-radius: 20px;
+        }
+        input:focus {
+            border: none;
+            box-shadow: 0px 0px 15px 3px #5d6063;
+        }
+        p {
+            display: none;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 17.5%);
+            width: 250px;
+            padding: 10px;
+            background-color: #f0ecec;
+            font-weight: normal;
+            text-align: left;
+        }
+        button {
+            position: relative;
+            padding: 5px 15px;
+            border: none;
+            border-radius: 20px;
+            font: 14px arial;
+            font-weight: bold;
+        }
+        button:hover p {display: block;}
+        button p::first-letter {
+            font-size: 48px;
+            line-height: 24px;
+            margin-right: 2.5px;
+            float: left;
+        }
+        button:first-child {background: #b3d5f6;}
+        button:first-child p::before {
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            width: 0;
+            height: 0;
+            content: "";
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-bottom: 15px solid #f0ecec;
+            transform: translate(-50%, 0);
+        }
+        button:last-child {background: #f3b3f6;}
+        button:last-child p::after {
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            width: 0;
+            height: 0;
+            content: "";
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-bottom: 15px solid #f0ecec;
+            transform: translate(-50%, 0);
+        }
+    </style>
+</head>
+<body>
+    <img src="../_src/brand/gsd-logo.png">
+    <div>
+        <button>
+            Show Text
+            <p>
+                something text appear here.
+                The text is called as a tooltip whom gives some an information.
+            </p>
+        </button>
+        <button>
+            Show Text
+            <p>
+                something text appear here.
+                The text is called as a tooltip whom gives some an information.
+            </p>
+        </button>
+    </div>
+    <input type="text" placeholder="Search something here">
+</body>
+</html>

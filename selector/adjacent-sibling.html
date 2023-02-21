@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Adjacent Sibling's Selector</title>
+    <style>
+        p {
+            margin: 5px auto;
+            width: 25%;
+            padding: 10px 0;
+            text-align: center;
+            background-color: #e8f5ba;
+        }
+        div {margin: 100px 0;}
+        /* Select all first <p> after <div> */
+        div + p {background: #bef5ba;}
+        div p {background: #baeff5;}
+    </style>
+</head>
+<body>
+    <div>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+    </div>
+    <p>Paragraph 3</p>
+    <p>Paragraph 4</p>
+    <div>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+    </div>
+    <p>Paragraph 3</p>
+    <p>Paragraph 4</p>
+</body>
+</html>

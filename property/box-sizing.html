@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Box Sizing</title>
+    <style>
+        /* border-box value */
+        div:first-child {
+            box-sizing: border-box;
+            padding: 10px;
+            border: 10px solid rgb(37, 76, 206);
+            width: 250px;
+            height: 100px;
+            background-color: rgb(132, 192, 252);
+        }
+        /* content-box value (default by browser) */
+        div:last-child {
+            box-sizing: content-box;
+            padding: 10px;
+            border: 10px solid rgb(37, 76, 206);
+            width: 250px;
+            height: 100px;
+            background-color: rgb(132, 192, 252);
+        }
+    </style>
+</head>
+<body>
+    <div>The box size is 250x100px</div>
+    <div>The box size is 290x140px</div>
+</body>
+</html>

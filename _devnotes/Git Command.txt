@@ -1,0 +1,28 @@
+> git -v
+Checking Git version.
+> git init
+Creating repository (Git will create an hidden folder (.git folder) in your project folder).
+> git status
+Checking your status git (all your files status will display here and your position in which branch will display too).
+> git add [file name].[file format]
+Changing modified files to stage environment (Add to recored).
+> git add --all
+Adding all files become staged files.
+> git add -A
+Same as git add --all, it is a short for --all command.
+> git add *
+Same as git add –all.
+> git add .
+Same as git add –all.
+> git commit -m ["your message"]
+Changing staged files to commit (To finish record, -m command is REQUIRED, you must to type your message to commit files).
+> git commit -am ["your message"]	
+> git branch
+Checking branch you have
+> git branch -M [new branch name]	
+> git branch [branch name]
+Creating new branch.
+> git checkout [your branch name]
+Chamging your position in branch.
+> ls
+Showing list of folder in your folder location.
