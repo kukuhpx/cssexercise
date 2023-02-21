@@ -1,7 +1,0 @@
-Install Dependencies of package.json
-1. To installl local dependencies of package.json you must be online first.
-2. Open "Node.js Command Prompt".
-3. Go to project folder location, example "D:/bootstrap".
-4. Use npm command:
-> npm install
-5. Wait until end of installation.

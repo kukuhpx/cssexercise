@@ -1,3 +1,0 @@
-Local Documentation of BootStrap Doesn't Appear Correctly
-1. Copy "dist" folder to path "../bootstrap/site/docs/4.3/".
-2. After copying has done you must restart the JeckyyII server.

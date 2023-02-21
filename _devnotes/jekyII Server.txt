@@ -1,9 +1,0 @@
-Running JeckyII Server
-1. You don't need internet connection to do this.
-2. Open "Node.js Command Prompt".
-3. Go to project folder location, example "D:/bootstrap".
-4. Use npm command.
-> npm run docs-serve.
-5. Wait until server get running.
-Note:
-For stopping server press "ctrl + c" and type "Y" to confirm, if after stopping server then you want run back the server but server doesn't response, you must stop and run back the server again.
