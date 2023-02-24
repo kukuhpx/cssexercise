@@ -1,4 +1,4 @@
-The repository for Bootstrap exercise, there is a DEV NOTES to note all important things here.
+The repository for CSS exercise, there is a DEV NOTES to note all important things here.
 The repo was also included the GIT COMMAND and GITHUB COMMAND for additional purpose.
 
 GIT COMMAND
