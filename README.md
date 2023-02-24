@@ -58,7 +58,7 @@ GITHUB COMMAND
 1. > git remote set-url [remote's name] [new remote's url].
 2. > git fetch [remote's name] [branch's name].
 3. > git pull [remote's name] [branch's name].
-4. > git push [remote's name] [branch's name].git
+4. > git push [remote's name] [branch's name].
 
 DEV NOTES
 Couple CSS's Property:
