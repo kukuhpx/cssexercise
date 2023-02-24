@@ -32,10 +32,10 @@ Deleting a Folder:
 
 GITHUB COMMAND
 Changing Remote URL:
-1. > git remote set-url origin [new remote url].
-2. > git fetch origin master.
-3. > git pull origin master.
-4. > git push origin master.
+1. > git remote set-url [remote name] [new remote url].
+2. > git fetch [remote name] [branch name].
+3. > git pull [remote name] [branch name].
+4. > git push [remote name] [branch name].
 
 Checking The Remote You Owned:
 > git remote -v

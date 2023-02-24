@@ -1,13 +1,10 @@
 /* Nav with Block Style */
 a {
     text-decoration: none;
-    font-family: helvetica;
+    font-family: Arial;
 }
-
-a:hover,li:hover {
-    font-weight: bold;
-    color: #ccc;
-    background-color: #eee;
+a:hover {
+    opacity: 0.8;
 }
 /* Nav with Inline-Block Style */
 .inline-block-nav {
@@ -67,7 +64,6 @@ a:hover,li:hover {
     display: table-cell;
     color: #f4d495;
 }
-
 .inline-nav {
     padding: 0;
     margin: auto;
@@ -88,7 +84,6 @@ a:hover,li:hover {
     text-align: center;
     color: #a5f495;
 }
-
 .table-cell-nav {
     display: table;
     padding: 0;
@@ -105,4 +100,26 @@ a:hover,li:hover {
 .table-cell-nav a {
     display: block;
     color: #a5f495;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 960px;
+    padding: 0;
+    margin: auto;
+
+}
+.flex-nav li {
+    width: 100%;
+    line-height: 35px;
+    list-style: none;
+    text-align: center;
+    
+}
+.flex-nav a {
+    display: block;
+    background: #ed5bce;
+    color: #fbdbf7d4;
 }

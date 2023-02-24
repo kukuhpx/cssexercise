@@ -1,0 +1,148 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f0ffff;
+}
+#navbar {
+    background-color: #ffffff;
+    box-shadow: 0 3px 10px 0 #aaaaaa;
+    position: relative;
+    left: 60%;
+    max-width: fit-content;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar li {
+    list-style: none;
+    float: left;
+}
+
+#navbar li a {
+    font-family: fantasy, sans-serif;
+    padding: 12px 15px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+#wrapper {
+    width: 960px;
+    margin:0 auto;
+    font-family: arial, sans-serif;
+}
+
+#user-profile {
+    margin-top: 50px;
+    width: 930px;
+    padding: 8px 15px;
+    background-color: #ffffff;
+}
+
+.active-page {
+    color: #1E90FF !important;
+    border-bottom: 5px solid #1E90FF;
+}
+
+.user-pic {
+    width: 128px;
+    height: 128px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.col-1 {
+    width: 40%;
+    overflow: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.col-1 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.col-1 p {
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.col-1 a {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    width: 80px;
+    height: 28px;
+    display: inline-flex;
+    border: 2px solid #1E90FF;
+    background-color: #1E90FF;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-1 a:last-child{
+    color: #1E90FF;
+    background-color: #ffffff;
+    margin-left: 10px;
+}
+
+.col-2 {
+    width: 59%;
+    display: inline-block;
+}
+
+.col-2 ul {
+    padding: 0;
+}
+
+.col-2 ul li {
+    list-style: none;
+    display: block;
+}
+
+.col-2 ul li span{
+    width: 150px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+#reg-form {
+    margin: 30px 0;
+}
+
+#reg-form label {
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#reg-form input {
+    font-family: arial, sans-serif;
+
+    margin-top: 5px;
+    padding-left: 20px;
+    width: 940px;
+    height: 30px;
+    display: block;
+    border-radius: 30px;
+    border: 2px solid #aaaaaa;
+}
+
+#reg-form input:focus {
+    outline: none;
+}
+
+#reg-form input:last-child {
+    padding: 5px 0;
+    width: 960px;
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #32cd32;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    box-sizing: content-box;
+}
