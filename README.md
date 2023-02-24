@@ -66,16 +66,3 @@ Couple CSS's Property:
 3. (parent) {display: table} & (child) {display: table-cell}.
 4. (self) {display: flex} & (self) {justify-content/align-item/align-content}.
 5. (img) {max-width/max-height} (img) {overflow: hidden/scroll/auto}.
-Inline HTML's Element List:
-1. <a></a>
-2. <b></b>
-3. <button></button>
-4. <i></i>
-5. <img>
-6. <input>
-7. <strong></strong>
-Block HTML's Element List:
-1. <div></div>
-2. <form></form>
-3. <h1></h1> - <h6></h6>
-4. <p></p>
