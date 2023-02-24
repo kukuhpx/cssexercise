@@ -1,7 +1,12 @@
 The repository for CSS exercise, there is a DEV NOTES to note all important things here.
 <br>
 The repo was also included the GIT COMMAND and GITHUB COMMAND for additional purpose.
-
+<table>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+    </tr>
+</tab;e>
 GIT COMMAND
 1. Checking GIT Version:
     > git -v
