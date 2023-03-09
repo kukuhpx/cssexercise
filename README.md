@@ -1,5 +1,5 @@
 #### **BOOTSTRAP EXERCISE**
-*The repository for Bootstrap exercise.*
+*The repository for CSS exercise.*
 #### **GIT COMMAND**
 *Use these some command to use Git.*
 1. Checking Git version:
